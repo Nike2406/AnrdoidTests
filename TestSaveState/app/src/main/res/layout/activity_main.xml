@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/randomColorButton"
+        style="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random color"
+        app:layout_constraintBottom_toTopOf="@+id/incrementButton"
+        app:layout_constraintEnd_toEndOf="@+id/incrementButton"
+        app:layout_constraintStart_toStartOf="@+id/incrementButton" />
+
+    <Button
+        android:id="@+id/incrementButton"
+        style="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_marginBottom="20dp"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toTopOf="@+id/switchVisibilityButton"
+        app:layout_constraintEnd_toEndOf="@+id/switchVisibilityButton"
+        app:layout_constraintStart_toStartOf="@+id/switchVisibilityButton" />
+
+    <Button
+        android:id="@+id/switchVisibilityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/DefaultButton"
+        android:text="Switch visibility"
+        app:layout_constraintBottom_toTopOf="@+id/randomColorButton"
+        app:layout_constraintEnd_toEndOf="@+id/randomColorButton"
+        app:layout_constraintStart_toStartOf="@+id/randomColorButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
