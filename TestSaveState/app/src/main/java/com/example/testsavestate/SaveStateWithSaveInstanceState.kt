@@ -71,6 +71,7 @@ class SaveStateWithSaveInstanceState: AppCompatActivity() {
         counterText.visibility = if (counterIsVisible) View.VISIBLE else View.INVISIBLE
     }
 
+
     companion object {
         private const val KEY_COUNTER = "COUNTER"
         private const val KEY_COLOR = "COLOR"
