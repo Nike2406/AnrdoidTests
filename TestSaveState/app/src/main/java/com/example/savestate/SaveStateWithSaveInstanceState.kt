@@ -1,12 +1,11 @@
-package com.example.testsavestate
+package com.example.savestate
 
 import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.testsavestate.databinding.ActivityMainBinding
+import com.example.savestate.databinding.ActivityMainBinding
 import kotlin.properties.Delegates.notNull
 import kotlin.random.Random
 

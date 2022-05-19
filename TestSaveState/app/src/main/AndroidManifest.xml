@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testsavestate">
+    package="com.example.savestate">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestSaveState">
         <activity
-            android:name="com.example.testsavestate.MainActivity"
+            android:name="com.example.savestate.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.testsavestate.SaveStateWithSaveInstanceState"
+            android:name="com.example.savestate.SaveStateWithSaveInstanceState"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.testsavestate.SaveStateWithSerialization"
+            android:name="com.example.savestate.SaveStateWithSerialization"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.testsavestate.SaveStateWithParcelable"
+            android:name="com.example.savestate.SaveStateWithParcelable"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.testsavestate.SaveStateWithViewModel"
+            android:name="com.example.savestate.SaveStateWithViewModel"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.testsavestate.SaveStateWithViewModelParce"
+            android:name="com.example.savestate.SaveStateWithViewModelParce"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,14 +1,12 @@
-package com.example.testsavestate
+package com.example.savestate
 
 import android.graphics.Color
-import android.os.Parcelable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import kotlinx.parcelize.Parcelize
 import kotlin.random.Random
 
-class ViewModelLogicParce : ViewModel() {
+class ViewModelLogic : ViewModel() {
 
     /*
     * Позвооляет менять сосотояние только во viewModel,
@@ -45,10 +43,9 @@ class ViewModelLogicParce : ViewModel() {
         )
     }
 
-    @Parcelize
     data class State(
         var counterValue: Int,
         var counterTextColor: Int,
         var counterIsVisible: Boolean,
-    ) : Parcelable
+    )
 }

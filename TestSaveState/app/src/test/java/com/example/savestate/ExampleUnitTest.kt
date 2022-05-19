@@ -1,4 +1,4 @@
-package com.example.testsavestate
+package com.example.savestate
 
 import org.junit.Test
 
