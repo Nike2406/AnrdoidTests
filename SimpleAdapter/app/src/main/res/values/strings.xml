@@ -2,4 +2,11 @@
     <string name="app_name">Simple Adapter</string>
     <string name="text1">text1</string>
     <string name="text2">text2</string>
+    <string name="item_selected_message">You have selected th item: %1$s</string>
+    <string name="character_input_hint">Character name</string>
+    <string name="test_title">Test title</string>
+    <string name="delete_character">Delete character</string>
+    <string name="character_info">Character %1$s by id #%2$d</string>
+    <string name="ok">OK</string>
+    <!--  %1$s, где 1 - первое число, s - строковый тип  -->
 </resources>
